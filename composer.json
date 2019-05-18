@@ -1,0 +1,21 @@
+{
+    "name": "lotestudio/partisans",
+    "description": "Some useful artisan commands",
+    "type": "library",
+    "authors": [
+        {
+            "name": "lotestudio",
+            "email": "info@lote.bg"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lotestudio\\Partisans\\PartisansServiceProvider"
+            ]
+        }
+    }
+}
