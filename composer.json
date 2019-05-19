@@ -18,12 +18,5 @@
         "psr-4": {
             "Lotestudio\\Partisans\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Lotestudio\\Partisans\\PartisansServiceProvider"
-            ]
-        }
     }
 }
