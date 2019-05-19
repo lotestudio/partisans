@@ -34,4 +34,15 @@ class PartisansServiceProvider extends ServiceProvider
             ]);
         }
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function provides()
+    {
+        return [
+            ViewCommand::class,
+            VueComponentCommand::class,
+        ];
+    }
 }
