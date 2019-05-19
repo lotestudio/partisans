@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lotestudio\\Partisans\\": "src"
+            "Lotestudio\\Partisans\\": "src/"
         }
     },
     "extra": {
