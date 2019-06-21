@@ -12,7 +12,7 @@
             //     required: true
             // }
         },
-        data: () => {
+        data() {
             return {
                 //someData: someValue
             }
